@@ -1,3 +1,4 @@
+#by Gabriel
 # Imports
 import tkinter as tk
 from tkinter import END, PhotoImage, filedialog
