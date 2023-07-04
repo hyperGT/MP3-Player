@@ -298,7 +298,7 @@ mx.music.set_volume(0.5)
 
 # Volume indicator
 volume_label = tk.Label(control_frame, text="50", width=3, background="black", fg="yellow", font=("Times New Roman", 10))
-volume_label.grid(row=1, column=3, padx=5, pady=5, sticky="e")
+volume_label.grid(row=1, column=4, padx=5, pady=5, sticky="e")
 
 
 root.mainloop()
