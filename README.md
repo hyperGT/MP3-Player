@@ -30,3 +30,8 @@ Executando o aplicativo
 Certifique-se de ter os módulos necessários instalados e execute o arquivo mp3_player.py em um ambiente Python compatível. O aplicativo abrirá uma janela onde você pode selecionar uma pasta contendo arquivos de música MP3 para reproduzir.
 
 Divirta-se ouvindo suas músicas favoritas!
+
+
+-----------------------------------------------
+Current Version Mp3 Player screenshoot
+![Version A1](image.png)
