@@ -9,14 +9,15 @@ from pygame import mixer as mx
 
 import os
 
-# Initialze pygame mixer
-pg.mixer.init()
-
 # Global variables
 available_songs = []
 current_song = str(None)
 paused = False
 songlist = None
+
+# Initialze pygame mixer
+pg.mixer.init()
+
 
 # GUI     
 # Graphic Window Interface
@@ -24,6 +25,14 @@ root = tk.Tk()
 root.title("MP3 Player")
 root.geometry("500x300")
 root.config(bg="black", border=1)
+
+# Create Playlist Box
+song_listbox = tk.Listbox(root, bg="black", fg="cyan", width=60, height=10, font=('ds-digital', 9), border=2)
+song_listbox.pack()
+
+songlist = song_listbox
+
+
 
 
 
