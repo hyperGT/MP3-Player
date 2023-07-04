@@ -1,6 +1,6 @@
 # MP3 Player
 
-Este é um aplicativo de player de MP3 desenvolvido em Python.
+Este é um aplicativo de player de MP3 desenvolvido puramente em Python.
 
 ## Módulos necessários
 
