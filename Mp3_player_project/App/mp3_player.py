@@ -268,7 +268,7 @@ label = tk.Label(root, text='', bg='black', fg="yellow", font=('ds-digital', 13)
 label.pack(pady=10, side='top', anchor='center')
 
 ########################################################################
- 
+
 # Create Player Control Buttons
 
 # play button
