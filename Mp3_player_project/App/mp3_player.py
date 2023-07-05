@@ -261,7 +261,7 @@ def adjust_volume(value):
     pg.mixer.music.set_volume(volume) 
     # Para alterar o texto do slider conforme a alteração do volume da música   
     volume_label.config(text=value)
-    
+
 
 # to show music name
 label = tk.Label(root, text='', bg='black', fg="yellow", font=('ds-digital', 13))
